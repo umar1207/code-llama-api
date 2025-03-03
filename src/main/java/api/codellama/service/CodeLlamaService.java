@@ -12,7 +12,7 @@ import java.util.Map;
 @Service
 public class CodeLlamaService {
     private static final String API_URL = "https://api.together.xyz/v1/chat/completions";
-    private static final String API_KEY = "ee6df88653d6188b803c332b1946815defe7493a1db51018858d902d18c490bb";
+    private static final String API_KEY = "api-key";
 
     public String generateCode(String prompt) {
         RestTemplate restTemplate = new RestTemplate();
